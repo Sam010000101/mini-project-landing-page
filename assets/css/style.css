@@ -1,0 +1,96 @@
+
+/*Universal Selector*/
+* {
+margin: 0;
+padding: 0;
+
+}
+
+
+
+ h1 {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.topnav {
+    display: block;
+    background-color: rgb(67, 94, 81);
+    height: 60px;
+}
+
+.nav-bottom {
+    display: block;
+    background-color: rgb(204, 178, 152);
+    height: 10px;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.main {
+    color: white;
+    display: block;
+    height: 300px;
+}
+
+.container {
+    background-color: black;
+}
+.coming-soon {
+    text-align: center;
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+    left: 42%;
+    background-color: black;
+    border: solid 5px gold;
+}
+
+.form-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    display: block;
+    width: 600px;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+/*
+.another-section {
+    display: block;
+}
+*/
+
+footer {
+    display: block;
+    background-color: rgb(67, 94, 81);
+    height: 20px;
+    margin: 0 10 0 10;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
