@@ -6,91 +6,118 @@ padding: 0;
 
 }
 
-
-
- h1 {
-    padding: 10px;
-    font-size: 40px;
-    text-align: center;
-}
-
-h2 {
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.topnav {
-    display: block;
-    background-color: rgb(67, 94, 81);
-    height: 60px;
-}
-
-.nav-bottom {
-    display: block;
-    background-color: rgb(204, 178, 152);
-    height: 10px;
-}
-
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-.main {
-    color: white;
-    display: block;
-    height: 300px;
-}
-
-.container {
-    background-color: black;
-}
-.coming-soon {
-    text-align: center;
-    padding: 50px;
-    width: 50px;
-    height: 50px;
-    display: block;
+/* Element Selectors */
+body {
     position: relative;
-    left: 42%;
-    background-color: black;
-    border: solid 5px gold;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color:#fdf8f5;
+    color:#4f4846;
 }
 
-.form-section {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 20px 20px 20px 20px;
+
+.text-center {
+    text-align: center;
+
+}
+
+
+
+ h1,
+ h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fdf8f5;
+
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(67, 94, 81);
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid #ddaf94;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4f4846;
+    color: #fdf8f5;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
     display: block;
-    width: 600px;
-    border: solid 5px black;
+    margin: 20px auto;
+}
+
+#img-coming-soon {
+    width: 400px;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #ddaf94;
+    background-color: #e8cebf;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #ddaf94;
     border-radius: 20px;
 }
 
-/*
-.another-section {
-    display: block;
+label {
+    display: inline-block;
+    width: 100px;
 }
-*/
 
-footer {
-    display: block;
-    background-color: rgb(67, 94, 81);
-    height: 20px;
-    margin: 0 10 0 10;
-    padding: 20px;
+input {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4f4846;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4f4846;
+    color: #fdf8f5;
+}
+
+
+
+/* Class Selectors */
+.text-center {
     text-align: center;
 }
 
-footer a {
-    color: #f2f2f2;
-    font-size: 20px;
+.text-right {
+    text-align: right;
 }
-
